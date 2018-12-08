@@ -23,6 +23,6 @@ public class ConstraintLayout extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         Intent intent= new Intent(this,FrameLayout.class);
         startActivity(intent);
-        Log.d(TAG, "onClick: FrameLayout is called");
+        Log.d(TAG, "onClick: FrameLayout is c   alled");
     }
 }
